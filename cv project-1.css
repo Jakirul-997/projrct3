@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #EEE;
+    font-size: 20px;
+    
+    
+
+}
+.container{
+    max-width: 1000px;
+    background-color: #E4F9F5;
+    margin: 0 auto;
+    border: solid yellowgreen 5px;
+
+}
+
+.profile-image{
+    width: 100px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 20px;
+    float: left;
+}
+.header-bio{
+    float: left;
+    padding: 30px;
+    color: teal;
+}
+h1,h2,h3,h4 , h5{
+    color: teal;
+}
+.header-contact{
+    float: right;
+    padding: 30px;
+
+}
+.header-contact a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;    
+}
+.header-contact a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+.div-clear{
+    clear: both;
+
+}
+hr{
+    border: solid black 3px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+
+}
+
+#personal-section{
+    
+
+}
+#work-section{
+    
+}
+.left-div{
+    float: left;
+    width: 30%;
+
+}
+.right-div{
+    width: 70%;
+    float: left;
+    color: green;
+}
+.common-hr{
+    border-bottom: none;
+    border: solid black 1px;
+    width: 100%;
+    margin: 20px auto;
+}
+.content{
+    margin: 30px;
+}
+.edu-template-left{
+    float: left;
+
+}
+.edu-template-right{
+    float: right;
+
+}
+.button-continer{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+
+
+}
+.button-continer a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+
+}
+.button-continer p{
+    color: white;
+    margin-top: 20px;
+
+
+}
+.button-continer a:hover{
+    color: red;
+}
